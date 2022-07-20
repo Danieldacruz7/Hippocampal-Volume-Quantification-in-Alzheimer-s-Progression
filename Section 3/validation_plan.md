@@ -8,7 +8,7 @@ By creating an end-to-end system that can quantify the volume of the Hippocampus
 
 The training data consists of NIFTI files of T2 Magnetic Resonance Imaging of the brain. Each NIFTI file contains a segmented mask that is mapped to a region of the brain to indicate the Hippocampal area of the brain. The convolutional neural net will be trained on this data to recognise the Hippocampus. 
 
-![Tensorboard](./Screenshot/Tensorboard.jpg)
+![Tensorboard](./Screenshots/Tensorboard.png)
 
 # How the Training Data has been Labelled:
 
@@ -22,4 +22,4 @@ The training will be according to the Dice and Jaccard scores. These evaluation 
 
 Based on the Dice and Jaccard metrics, the scores were x and x respectively. The algorithm was able to provide a volume that is expected and within range of previous scores - between 2200 and 4500 mm^3. For the purposes of this project, this is a good enough level of performance based on the Jaccard, Dice and volumetric scores as the final respective metric is within range.  
 
-![Report](./Screenshots/Report.jpg)
+![Report](./Screenshots/Report%20.jpg)
